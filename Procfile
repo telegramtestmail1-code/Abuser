@@ -1,1 +1,1 @@
-worker: python vc_booster_audio_bridge_fixed.py
+worker: python Abuser3_voice_changer.py
