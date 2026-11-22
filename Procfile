@@ -1,1 +1,1 @@
-worker: python Abuser3_voice_changer_child-1.py
+worker: python mute.py
