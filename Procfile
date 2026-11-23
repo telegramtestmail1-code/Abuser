@@ -1,1 +1,1 @@
-worker: python n.py
+worker: python n_fixed.py
