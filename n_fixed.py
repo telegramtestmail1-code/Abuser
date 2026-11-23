@@ -46,14 +46,14 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 
 # English comment
-API_ID = int(os.environ["API_ID"])
-API_HASH = os.environ["API_HASH"]
-BOT_TOKEN = os.environ["BOT_TOKEN"]
+API_ID = int(os.environ["31157048"])
+API_HASH = os.environ["ed0fea589fd64fe5985a373cb4ad9d84"]
+BOT_TOKEN = os.environ["9211524304:AAGTmAfAf4iJ3dLaNXHbK6r4fb39SRdq7fw"]
 OWNER_ID = int(os.getenv("OWNER_ID", "8300072133"))
 RECORD_GROUP = int(os.getenv("RECORD_GROUP", "-1004459843210"))
 
 # Session files (Pyrogram SQLite format). Put the main account file beside n.py.
-MAIN_SESSION_FILE = "combined_bot.session"
+MAIN_SESSION_FILE = "combined_bot1.session"
 DYNAMIC_SESSIONS_DIR = "sessions"
 os.makedirs(DYNAMIC_SESSIONS_DIR, exist_ok=True)
 # ======================================================
@@ -69,7 +69,7 @@ logging.getLogger("pytgcalls").setLevel(logging.WARNING)
 AUDIO_PARAMETERS = AudioParameters(bitrate=48000, channels=2)
 
 # English comment
-bot_app = Client("botn_v7", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
+bot_app = Client("combined_session1", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 # No session_string: Pyrogram reads useron_v7.session from the current folder.
 user_app = Client(os.path.splitext(MAIN_SESSION_FILE)[0], api_id=API_ID, api_hash=API_HASH)
 call_py = PyTgCalls(user_app)
