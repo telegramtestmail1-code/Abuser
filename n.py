@@ -71,7 +71,7 @@ AUDIO_PARAMETERS = AudioParameters(bitrate=48000, channels=2)
 # English comment
 bot_app = Client("botn_v7", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 # No session_string: Pyrogram reads useron_v7.session from the current folder.
-user_app = Client("useron_v7", api_id=API_ID, api_hash=API_HASH)
+user_app = Client("combined_bot1", api_id=API_ID, api_hash=API_HASH)
 call_py = PyTgCalls(user_app)
 
 # English comment
