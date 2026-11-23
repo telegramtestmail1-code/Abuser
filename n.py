@@ -46,9 +46,9 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 
 # English comment
-API_ID = int(os.getenv("API_ID", "31157048"))
-API_HASH = os.getenv("API_HASH", "ed0fea589fd64fe5985a373cb4ad9d84")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "9211524304:AAGTmAfAf4iJ3dLaNXHbK6r4fb39SRdq7fw")
+API_ID = int(os.getenv("API_ID", ""))
+API_HASH = os.getenv("API_HASH", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 OWNER_ID = int(os.getenv("OWNER_ID", "8300072133"))
 RECORD_GROUP = int(os.getenv("RECORD_GROUP", "-1004459843210"))
 
