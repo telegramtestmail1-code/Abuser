@@ -53,7 +53,7 @@ OWNER_ID = int(os.getenv("OWNER_ID", "8300072133"))
 RECORD_GROUP = int(os.getenv("RECORD_GROUP", "-1004459843210"))
 
 # Session files (Pyrogram SQLite format). Put the main account file beside n.py.
-MAIN_SESSION_FILE = "combined_bot.session"
+MAIN_SESSION_FILE = "combined_bot1.session"
 DYNAMIC_SESSIONS_DIR = "sessions"
 os.makedirs(DYNAMIC_SESSIONS_DIR, exist_ok=True)
 # ======================================================
